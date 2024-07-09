@@ -21,8 +21,9 @@
     2. ☑ Теперь, чтобы это был полноценный датасет, вам нужно сгенерировать для него ограничивающие прямоугольники. Хорошей стартовой точкой может послужить [вот это обсуждение](https://blender.stackexchange.com/questions/280844/how-to-get-the-2d-bounding-box-of-a-3d-object-using-the-python-bpy-module).
     3. ☑ Сохраните разметку в любом удобном формате в файл. Например, pandas таблицей.
 
-> Link to images dataset: 
-> Saved to `annotations.csv`
+>Link to images dataset: [Google Диск](https://drive.google.com/file/d/1KE9Lc3in3rUAGNkyXKKvTYpOCzgpn7NM/view?usp=sharing)<br>
+>Link to Blender file: [Google Диск](https://drive.google.com/file/d/1HAgMp933IixqtONKRNGmLu_MHIdY2N_u/view?usp=sharing)<br>
+>Saved to `annotations.csv`
 
 3. **Обучение сети на сгенерированном датасете (5 баллов)**
     1. Теперь, когда у вас есть крутой датасет дорожных знаков — грех добру пропадать. Возьмите любой фреймворк для обучения [детекции](https://github.com/open-mmlab/mmdetection) (или что там сегодня у молодёжи популярно) и обучите сетку.
